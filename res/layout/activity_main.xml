@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    tools:context=".MainActivity" >
+    
+    <com.jack139.tetrisbase.TetrisGridView
+        android:id="@+id/tetrisGridView1"
+        android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+  	  	android:background="@drawable/backrepeat"
+         />
+    <com.jack139.tetrisbase.GameCanvasView
+        android:id="@+id/gameCanvasView1"
+        android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+         />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/peerselect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical" >
+
+		<LinearLayout
+			android:layout_width = "fill_parent"
+			android:layout_height = "15px" />
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="30dp"
+			android:text="俄罗斯方块 - 用喊的！"
+			android:textColor="#ffff9900"
+			android:gravity="center"
+		/>
+
+		<LinearLayout
+			android:layout_width = "fill_parent"
+			android:layout_height = "15px" />
+
+		<ImageView
+			android:src="@drawable/logo128"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+		/>
+
+		<LinearLayout
+			android:layout_width = "fill_parent"
+			android:layout_height = "10px" />
+
+		<TextView
+			android:id="@+id/text_high"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text=""
+			android:textColor="#ffffff00"
+			android:gravity="center"
+		/>
+		<LinearLayout
+			android:layout_width = "fill_parent"
+			android:layout_height = "10px" />
+
+    <Button
+        android:id="@+id/button_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="开始游戏"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30sp" />
+
+		<LinearLayout
+			android:layout_width = "fill_parent"
+			android:layout_height = "20px" />
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:text="声音控制:"
+			android:textColor="#ff00ffff"
+			android:gravity="left"
+		/>
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text="　“左边”：方块向左移动"
+			android:textColor="#ffffffff"
+			android:gravity="left"
+		/>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text="　“右边”：方块向右移动"
+			android:textColor="#ffffffff"
+			android:gravity="left"
+		/>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text="　“旋转”：方块旋转"
+			android:textColor="#ffffffff"
+			android:gravity="left"
+		/>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text="　“落下”：方块落下"
+			android:textColor="#ffffffff"
+			android:gravity="left"
+		/>
+
+		<LinearLayout
+			android:layout_width = "fill_parent"
+			android:layout_height = "15px" />
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:text="屏幕划动控制:"
+			android:textColor="#ff00ffff"
+			android:gravity="left"
+		/>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text="　向上划旋转，向其他方向划做相应移动"
+			android:textColor="#ffffffff"
+			android:gravity="left"
+		/>
+
+</LinearLayout>
+
+<com.google.android.gms.ads.AdView
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/adView"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:layout_marginBottom="3dip"
+	ads:adUnitId="ca-app-pub-2146602403732126/7075571494"
+	ads:adSize="BANNER"
+/>
+
+</RelativeLayout>

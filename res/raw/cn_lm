@@ -1,0 +1,41 @@
+Language model created by QuickLM on Fri May 31 20:56:01 EDT 2013
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 6 words
+
+\data\
+ngram 1=6
+ngram 2=8
+ngram 3=4
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.3802 右边 -0.2218
+-1.3802 左边 -0.2218
+-1.3802 旋转 -0.2218
+-1.3802 落下 -0.2218
+
+\2-grams:
+-0.9031 <s> 右边 0.0000
+-0.9031 <s> 左边 0.0000
+-0.9031 <s> 旋转 0.0000
+-0.9031 <s> 落下 0.0000
+-0.3010 右边 </s> -0.3010
+-0.3010 左边 </s> -0.3010
+-0.3010 旋转 </s> -0.3010
+-0.3010 落下 </s> -0.3010
+
+\3-grams:
+-0.3010 <s> 右边 </s>
+-0.3010 <s> 左边 </s>
+-0.3010 <s> 旋转 </s>
+-0.3010 <s> 落下 </s>
+
+\end\

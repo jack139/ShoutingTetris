@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">用喊的！</string>
+    <string name="dlg_title">游戏结束</string>
+    <string name="dlg_title2">！！！新的喊叫世界纪录！！！</string>
+    <string name="dlg_message">　喊叫得分：　　</string>
+    <string name="dlg_button">确定</string>
+    <string name="lst_title">游戏难度:</string>
+    <string name="lst_item1">新手 - 刚开始喊</string>
+    <string name="lst_item2">老手 - 我喊很久了</string>
+    <string name="lst_item3">高手 - 喊叫学院毕业</string>
+    <string name="txt_high">喊叫世界记录：</string>
+</resources>
